@@ -1,0 +1,342 @@
+* {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+#battle-pets {
+
+    height: 90px;
+    margin-top: 30px;
+    margin-right: 100px;
+    font-size: larger;
+    font-weight: 300;
+    justify-content: center;
+    text-align: center;
+}
+body {
+
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    justify-content: center;
+    align-content: center;
+}
+
+#pet-background{
+    width: 1145px;
+    height: 1000px;
+    margin-left: 250px;
+}
+
+
+#opponent-pet1 {
+    border: solid black;
+    background-color: #FFAB4C;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    height: auto;
+    width: 250px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#opponent-pet2 {
+    border: solid black;
+    background-color: #FFAB4C;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    height: auto;
+    width: 250px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#opponent-pet3 {
+    border: solid black;
+    background-color:white;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: auto;
+    margin-right: 600px;
+    width: 250px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#player-pet0 {
+    background-color: white;
+    border: solid black;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    height: auto;
+
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#player-pet1 {
+
+    background-color: white;
+    border: solid black;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    height: auto;
+
+
+    width: 250px;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#player-pet3 {
+    background-color: white;
+    border: solid black;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    height: auto;
+
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+#purrcival {
+    border: solid;
+    margin-top: 20px;
+
+    margin-top: 20px;
+    height: 250px;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+#barktholomew {
+    border: solid;
+    margin-top: 20px;
+    height: 250px;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#clawdia {
+    border: solid;
+    margin-top: 20px;
+    height: 250px;
+    width: 200px;
+
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+#barkley {
+    border: solid;
+    margin-top: 20px;
+    height: 250px;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#purrcival-text {
+    border: solid black;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+    width: 200px;
+    border-radius: 10px;
+    resize: none;
+}
+#barktholomew-text {
+    background-color: white;
+    border: solid black;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+    width: 200px;
+    border-radius: 10px;
+    resize: none;
+}
+#clawdia-text {
+    border: solid black;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+    width: 200px;
+    border-radius: 10px;
+    resize: none;
+}
+#barkley-text {
+    background-color: white;
+    border: solid black;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+    width: 200px;
+    border-radius: 10px;
+    resize: none;
+}
+#notify-text {
+    background-color: white;
+    border: solid black;
+    display: block;
+    text-align: center;
+
+margin-top: 5px;
+margin-top: 25px;
+    margin-left: 350px;
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    resize: none;
+}
+
+
+
+.notify {
+background-color: white;
+border: solid black;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    height: auto;
+    width: 962px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#battle-text-cats {
+    border: solid black;
+    display: block;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    resize: none;
+}
+
+#battle-text-dogs {
+    border: solid black;
+    display: block;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    resize: none;
+}
+
+
+
+
+
+
+
+#atk0-btn {
+    height: 20px;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+#ultatk0-btn {
+    height: 20px;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+#switch-btn {
+    height: 20px;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#atk1-btn {
+    height: 20px;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+#ultatk1-btn {
+    height: 20px;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+#unknown {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+
+#hide {
+    visibility: none;
+}
